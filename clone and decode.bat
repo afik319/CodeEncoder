@@ -5,4 +5,3 @@ rmdir /S /Q temp_folder
 if not exist venv call venv.bat
 if exist venv call venv\Scripts\activate
 python decode.py
-pause
