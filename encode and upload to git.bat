@@ -4,4 +4,4 @@ git add .
 git commit
 git push
 call clean.bat
-rm -f "clean.bat"
+del /F /Q "clean.bat"
