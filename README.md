@@ -1,7 +1,5 @@
 ## What You Need to Know:
 
-Anyone who wants to add a new query should go to our folder on drive L and copy the **CodeEncoder** folder to their chosen location on drive C. 
-
 This folder contains two essential files:
 1. **encryption_key.key** - the encryption key.
 2. **clone and decode.bat** - this script will pull the latest queries from the Git repo, create a new virtual environment (venv) with all the necessary Python libraries, and decrypt the queries using the encryption key. After running this, you'll be set up and ready to work with the queries.
