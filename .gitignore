@@ -1,2 +1,4 @@
 encryption_key.key
 *.sql
+venv/
+!venv.bat
