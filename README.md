@@ -1,6 +1,6 @@
 ## What You Need to Know:
 
-Anyone who wants to add a new query should go to our folder on drive L and copy the **DBQueries** folder to their chosen location on drive C. 
+Anyone who wants to add a new query should go to our folder on drive L and copy the **CodeEncoder** folder to their chosen location on drive C. 
 
 This folder contains two essential files:
 1. **encryption_key.key** - the encryption key.
