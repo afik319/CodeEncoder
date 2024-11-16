@@ -1,5 +1,5 @@
 @echo off
-git clone https://creditoltd.visualstudio.com/Credito.Algorithms/_git/DBQueries temp_folder
+git clone https://github.com/afik319/CodeEncoder.git
 xcopy temp_folder\* . /E /H /Y
 rmdir /S /Q temp_folder
 
