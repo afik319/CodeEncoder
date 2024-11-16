@@ -2,9 +2,14 @@ import os
 from cryptography.fernet import Fernet
 
 # Generate an encryption key and save it to a file
-key = Fernet.generate_key()
-with open("encryption_key.key", "wb") as key_file:
-  key_file.write(key)
+key_file_path = "encryption_key.key"
+if not os.path.exists(key_file_path):
+    key = Fernet.generate_key()
+    with open("encryption_key.key", "wb") as key_file:
+        key_file.write(key)
+    print(f"Encryption key created and saved to {key_file_path}.")
+else:
+    print("Found existing encryption key.")
 
 # Load the key
 with open("encryption_key.key", "rb") as key_file:
